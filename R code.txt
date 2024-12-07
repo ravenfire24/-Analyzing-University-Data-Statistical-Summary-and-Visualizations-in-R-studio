@@ -5,7 +5,7 @@ median_enroll <- median(data$Enroll, na.rm = TRUE)
 cat("Mean of Enroll:", mean_enroll, "\n")
 cat("Median of Enroll:", median_enroll, "\n")
 
-# Step 2: Find the Five-Number Summary of Enroll
+# Step 2: Finding the Five-Number Summary of Enroll
 five_num_summary <- fivenum(data$Enroll, na.rm = TRUE)
 cat("Five-Number Summary of Enroll:\n")
 names(five_num_summary) <- c("Minimum", "Q1 (25%)", "Median (50%)", "Q3 (75%)", "Maximum")
