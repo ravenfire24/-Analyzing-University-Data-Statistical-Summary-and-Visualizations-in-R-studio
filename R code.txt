@@ -1,0 +1,33 @@
+# Step 1: Finding the Mean and Median of Enroll
+mean_enroll <- mean(data$Enroll, na.rm = TRUE)
+median_enroll <- median(data$Enroll, na.rm = TRUE)
+
+cat("Mean of Enroll:", mean_enroll, "\n")
+cat("Median of Enroll:", median_enroll, "\n")
+
+# Step 2: Find the Five-Number Summary of Enroll
+five_num_summary <- fivenum(data$Enroll, na.rm = TRUE)
+cat("Five-Number Summary of Enroll:\n")
+names(five_num_summary) <- c("Minimum", "Q1 (25%)", "Median (50%)", "Q3 (75%)", "Maximum")
+print(five_num_summary)
+
+# Step 3: Finding the 70th Percentile of Enroll
+percentile_70 <- quantile(data$Enroll, 0.7, na.rm = TRUE)
+cat("70th Percentile of Enroll:", percentile_70, "\n")
+
+# Step 4: Generating a Boxplot for S.F.Ratio
+boxplot(data$S.F.Ratio,
+        main = "Boxplot of Student/Faculty Ratio (S.F.Ratio)",
+        ylab = "Student/Faculty Ratio",
+        col = "lightblue")
+
+# Adding horizontal line for the median
+abline(h = median(data$S.F.Ratio, na.rm = TRUE), col = "red", lty = 2)
+
+# Step 5: Describing the Distribution of S.F.Ratio
+# Shape of distribution: Look at the boxplot
+median_sfratio <- median(data$S.F.Ratio, na.rm = TRUE)
+cat("Median of S.F.Ratio:", median_sfratio, "\n")
+
+range_sfratio <- range(data$S.F.Ratio, na.rm = TRUE)
+cat("Range of S.F.Ratio:", range_sfratio[1], "to", range_sfratio[2], "\n")
