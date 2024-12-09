@@ -71,5 +71,7 @@ Before installing R and RStudio, ensure that your system meets the following pre
  - Download the Windows installer (`.exe`) file.
  - Download the macOS  installer (`.DMG`) file.
  - Download the Ubuntu/Debian  installer (`.deb`) file.
+ - Download the Fedora/Redhat/OpenSUSE installer (`.rpm`) file.
+   
   ![alt text](https://github.com/ravenfire24/University-Data-Statistical-Summary-Visualization/blob/340186144bf66776118a8854be7b30770fbc7d88/screenshot%203.png)
    
