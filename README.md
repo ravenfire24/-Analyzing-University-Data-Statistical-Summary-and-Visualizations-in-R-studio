@@ -3,3 +3,4 @@ This project involves loading a college/university dataset in R and performing s
 
 
 
+![Rstudio](https://github.com/user-attachments/assets/1ebb8d2b-f241-419b-aa5b-5b91d7f65776)
