@@ -1,4 +1,5 @@
 # Step 1: Finding the Mean and Median of Enroll
+
 mean_enroll <- mean(data$Enroll, na.rm = TRUE)
 median_enroll <- median(data$Enroll, na.rm = TRUE)
 
@@ -25,9 +26,9 @@ boxplot(data$S.F.Ratio,
 abline(h = median(data$S.F.Ratio, na.rm = TRUE), col = "red", lty = 2)
 
 # Step 5: Describing the Distribution of S.F.Ratio
+
 # Shape of distribution: Look at the boxplot
 median_sfratio <- median(data$S.F.Ratio, na.rm = TRUE)
 cat("Median of S.F.Ratio:", median_sfratio, "\n")
-
 range_sfratio <- range(data$S.F.Ratio, na.rm = TRUE)
 cat("Range of S.F.Ratio:", range_sfratio[1], "to", range_sfratio[2], "\n")
