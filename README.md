@@ -1,7 +1,5 @@
 # Statistical Summary and Visualizations in R-studio
 This project involves loading a college/university dataset in R and performing statistical analysis on variables such as student enrollment and student/faculty ratio. It includes computing summary statistics, percentiles, and visualizing the data through boxplots to understand distribution and outliers.
 
-https://github.com/ravenfire24/University-Data-Statistical-Summary-Visualization/blob/main/Rstudio.gif
 
-[steps of installation R-studio.pdf](https://github.com/user-attachments/files/18046203/steps.of.installation.R-studio.pdf)
 
